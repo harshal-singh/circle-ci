@@ -28,9 +28,9 @@ jobs:
           at: my_workspace
       - run:
           if [ 0 == 0 ]; then
-            echo "Number is Even"
+            echo "Number is Even";
           else
-            echo "Number is Odd"
+            echo "Number is Odd";
           fi
 
 workflows:
