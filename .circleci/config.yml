@@ -8,7 +8,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - run:  echio "A first hello"
+      - run:  echo "A first hello"
       - run: sleep 25
   two:
     docker:
@@ -18,7 +18,7 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - run:  echio "A more familiar hi"
+      - run:  echo "A more familiar hi"
       - run: sleep 15
 
 workflows:
