@@ -4,8 +4,8 @@ jobs:
     docker:
       - image: cimg/ruby:2.6.8
         auth:
-          username: sd
-          password: sd
+          username: stonecoldsteveaustin
+          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:  echio "A first hello"
