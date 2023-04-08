@@ -27,7 +27,7 @@ jobs:
       - attach_workspace:
           at: my_workspace
       - run:
-          if [ 0 == 0 ]; then
+          if [ $(cat my_workspace/echo-output) == "Trying out workspace" ]; then
             echo "Number is Even";
           else
             echo "Number is Odd";
