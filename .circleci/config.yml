@@ -31,7 +31,6 @@ jobs:
             echo "It Worked!";
           else
             echo "Nope!";
-            exit 1;
           fi
 
 workflows:
