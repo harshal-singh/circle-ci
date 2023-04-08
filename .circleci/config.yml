@@ -28,9 +28,9 @@ jobs:
           at: /my_workspace
       - run:
           if [ $a != $b ]
-            then
-              echo "a is not equal to b"
-            fi
+          then
+            echo "a is not equal to b"
+          fi
 
 workflows:
   version: 2
